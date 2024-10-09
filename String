@@ -1,16 +1,9 @@
-import java.util.Scanner;
-
 public class CharacterCount {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter a string: ");
-        String inputString = scanner.nextLine();
+        String inputString = "Mithun kumar A";
 
         int length = inputString.length();
 
-        System.out.println("The number of characters in the string is: " + length);
-
-        scanner.close();
+        System.out.println("The number of characters in the string \"" + inputString + "\" is: " + length);
     }
 }
